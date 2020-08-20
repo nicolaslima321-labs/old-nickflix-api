@@ -29,7 +29,7 @@ class AuthController extends Controller
 
         return response()->json([
             "message" => "User is authorized!",
-            "authorization" => "{$jwtToken}",
+            "token" => "{$jwtToken}",
         ], 200);
     }
 }
