@@ -19,7 +19,7 @@ Route::prefix("user")->group(function () {
     Route::post("/available", "UserController@userIsAvailable");
 });
 
-Route::middleware(["jwt.auth"])->group(function () {
+Route::middleware([])->group(function () {
     Route::prefix("discography")->group(function () {
         Route::post("/create", "DiscographyController@create");
         Route::get("/", "DiscographyController@getAll");
