@@ -24,7 +24,7 @@ To install the project, after clone the repo, you must run
 composer install
 ```
 
-After install the project, you must create an **.env** file in the root folder, it can be quickly done with `cat > .env.example > .env` in your UNIX terminal, otherwise, you can mannually copy and paste **.env.example** as **.env**
+After install the project, you must create an **.env** file in the root folder, it can be quickly done with `cat .env.example > .env` in your UNIX terminal, otherwise, you can mannually copy and paste **.env.example** as **.env**
 
 The **env** file contains environment variables that are used by PHP and Laravel, pay attention to **DATABASE** keys, fill then with the username and password of your MySQL DB local server. 
 
