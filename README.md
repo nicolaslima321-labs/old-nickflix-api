@@ -48,7 +48,7 @@ Now with the url visible, you must run
 php artisan --host=api.nickflix --port=8001
 ```
 
-If everything goes right, try to access 
+If everything goes right, try to access (GET Request through Postman) [api.nickflix:8001](api.nickflix:8001), it must returning the follow JSON:
 
 ```
 {
