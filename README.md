@@ -1,4 +1,6 @@
-# NickFlix
+# NickFlix API (Deprecated)
+
+- This project was deprecated, it will be redo, with an better arch and tech
 
 ## Overview
 
